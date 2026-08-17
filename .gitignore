@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Secrets & Environment configs
+.env
+server/.env
+client/.env
+*.env
+firebase-key.json
+server/firebase-key.json
+
+# Builds & Outputs
+client/dist/
+dist/
+
+# Local Uploaded Files
+server/uploads/
+uploads/
+
+# OS/System files
+.DS_Store
+Thumbs.db
