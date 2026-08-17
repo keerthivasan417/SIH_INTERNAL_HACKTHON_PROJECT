@@ -16,7 +16,7 @@ function RootRedirect() {
   if (user.role === 'school_admin') return <Navigate to="/admin/dashboard" replace />;
   if (user.role === 'super_admin') return <Navigate to="/super-admin/dashboard" replace />;
   if (user.role === 'student') return <Navigate to="/student" replace />;
-  if (user.role === 'teacher') return <Navigate to="/teacher" replace />;
+  if (user.role === 'teacher') return <Navigate to="/teacher/dashboard" replace />;
   return <Navigate to="/login" replace />;
 }
 
