@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+dist/
+build/
+.cache/
+
+# Environment Variables (NEVER commit these)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.production
+
+# Vite build output
+dist/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/settings.json
+
+# Coverage
+coverage/
+
+# Firebase keys
+firebase-debug.log
+.firebase/
