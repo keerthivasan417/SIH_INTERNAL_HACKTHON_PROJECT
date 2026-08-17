@@ -273,3 +273,19 @@ tr:hover td {
   }
 }
 
+@media print {
+  body {
+    background: #ffffff !important;
+  }
+  .admin-sidebar, header, .no-print {
+    display: none !important;
+  }
+  .printable-report-card {
+    box-shadow: none !important;
+    padding: 0 !important;
+    max-width: 100% !important;
+    border: none !important;
+  }
+}
+
+
